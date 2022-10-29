@@ -18,12 +18,8 @@ const home = () => {
           alt='/'
         />
         
-        <div className='absolute  '>
-          <br/>
-          
-          
-        </div>
-        <h2 className= 'py text-white'>Data science la science la plus sexie du vingt unième siècle</h2>
+        
+        
       </div>
 
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
@@ -31,16 +27,14 @@ const home = () => {
           <p></p>
           <h2>KAM</h2>
           <p>
-            KAM est un blog de vulgarisation de science de données, d'ingenierie
-            de données et d'intelligence Artificielle.
+            KAM est un blog de vulgarisation de science des données, d'ingenierie
+            des données et d'Intelligence Artificielle.
           </p>
-          <a
-            href='/contact'
-            target='_blank'
-            rel='noreferrer'
+          <Link
+            href='/contac'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Contact</button>
-          </a>
+          </Link>
          
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
@@ -48,10 +42,10 @@ const home = () => {
             <p className='text-center font-bold pb-2'>Sujects</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Science de données
+                <RiRadioButtonFill className='pr-1' /> Science des données
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Ingénierie de données
+                <RiRadioButtonFill className='pr-1' /> Ingénierie des données
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Intelligence Artificielle

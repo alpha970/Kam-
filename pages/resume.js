@@ -16,7 +16,7 @@ const resume = () => {
       </Head>
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
-        <h2 className='text-center'>Resume</h2>
+        <h2 className='text-center'></h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
           <h2 className='text-center'>Alpha Mohamed KABA</h2>
           <div className='flex'>
@@ -60,7 +60,7 @@ const resume = () => {
         </div>
         <p>
          
-         multidisplinary master's degree student, with experience in Data science,Data engineering,
+         multidisplinary master's student, with experience in Data science,Data engineering,
           Web Development,Finance and Energy.
           Diverse analytical skills, team collaboration, and
           relationship building. Consummate professional, and motivated leader,
@@ -74,7 +74,7 @@ const resume = () => {
             <span className='font-bold'>Ecole Centrale Casablanca</span>
             <span className='px-2'>|</span>Master of science in general engineering (2021-Current)
             <br/>
-          Relevant Coursework : Mathematics, Physics, Computer science
+          Relevant Coursework : Engineering, Mathematics, Physics, Computer science
             
             
           </p>
@@ -115,7 +115,7 @@ const resume = () => {
             Recognize and inform management of opportunities to Managers and Partners
             </li>
             <li>
-            Develop quantitative financial models to track and analyze asset values, fund expenses, and debt. Identify opportunities and and inform Managers and Partners
+            Develop quantitative financial models to track and analyze asset values, and fund expenses. Identify opportunities and inform Managers and Partners
             </li>
           </ul>
         </div>
@@ -128,7 +128,7 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-              Recherch
+              Research (Projet scientifique)
             </span>
             <span className='px-2'>|</span> Lithium-ion battery 
           </p>

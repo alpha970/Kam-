@@ -70,9 +70,9 @@ const Contact = () => {
               </div>
               <div>
                 
-                <div className='flex items-center justify-between  py-4'>
+                <div className='flex items-center flex space-x-4 justify-center  py-4'>
                   <a
-                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    href='https://www.linkedin.com/in/alphamohamedkaba/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -81,7 +81,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href='https://github.com/fireclint'
+                    href='https://github.com/alpha970'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -89,17 +89,6 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </a>
-
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineMail />
-                  </div>
-                  <Link href='/resume'>
-                    <a>
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
-                      </div>
-                    </a>
-                  </Link>
                 </div>
               </div>
             </div>

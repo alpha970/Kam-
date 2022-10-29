@@ -59,7 +59,7 @@ const Navbar = () => {
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
           <a>
-          <span > <h2 className='transition duration-500 ease hover:text-pink-600 inline-block text-indigo-900 cursor-pointer'>KAM</h2></span>
+          <span > <h2 className='transition duration-7 ease hover:text-pink-600 inline-block text-indigo-900 cursor-pointer'>KAM</h2></span>
             
           </a>
         </Link>
@@ -112,16 +112,8 @@ const Navbar = () => {
         >
           <div>
             <div className='flex w-full items-center justify-between'>
-              <Link href='/'>
-                <a>
-                  <Image
-                    src='/logo.png'
-                    width='87'
-                    height='35'
-                    alt='/'
-                  />
-                </a>
-              </Link>
+            <h2 className='text-indigo-900 cursor-pointer'>KAM</h2>
+              
               <div
                 onClick={handleNav}
                 className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'
@@ -131,7 +123,7 @@ const Navbar = () => {
             </div>
             <div className='border-b border-gray-300 my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>
-                Let&#39;s build something legendary together
+              construisons ensemble quelque chose de légendaire
               </p>
             </div>
           </div>
@@ -169,7 +161,7 @@ const Navbar = () => {
             
             <div className='pt-2'>
               <p className='uppercase tracking-widest text-[#5651e5]'>
-                Let&#39;s Connect
+                Restons connectés
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
@@ -190,15 +182,8 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <Link href='/#contact'>
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
-                  >
-                    <AiOutlineMail />
-                  </div>
-                </Link>
-                <Link href='/resume'>
+               
+                <Link href='/contac'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
