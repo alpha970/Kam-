@@ -58,10 +58,10 @@ const Navbar = () => {
       
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
-          <a>
+          
           <span > <h2 className='transition duration-7 ease hover:text-pink-600 inline-block text-indigo-900 cursor-pointer'>KAM</h2></span>
             
-          </a>
+        
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
@@ -123,7 +123,7 @@ const Navbar = () => {
             </div>
             <div className='border-b border-gray-300 my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>
-              construisons ensemble quelque chose de légendaire
+              
               </p>
             </div>
           </div>
@@ -183,7 +183,7 @@ const Navbar = () => {
                   </div>
                 </a>
                
-                <Link href='/contac'>
+                <Link href='/#contac'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
