@@ -1,4 +1,4 @@
-# This is a personal website built using Next.js + Tailwind CSS and deployed on Vercel?
+# This is a personal website built using Next.js + Tailwind CSS and deployed on Vercel.
 
 
 
