@@ -39,7 +39,6 @@ export const getPosts = async () => {
   return result.postsConnection.edges;
 };
 
-
 export const getCategories = async () => {
   const query = gql`
     query GetGategories {
@@ -255,76 +254,3 @@ export const getRecentPosts = async () => {
 
   return result.posts;
 };
-
-export const getAiPosts = async () => {
-  const query = gql`
-  query MyQuery {
-    postsConnection(where: {catego:"data"}) {
-      edges {
-        cursor
-        node {
-          author {
-            bio
-            name
-            id
-            photo {
-              url
-            }
-          }
-          createdAt
-          slug
-          title
-          excerpt
-          featuredImage {
-            url
-          }
-          categories {
-            name
-            slug
-          }
-        }
-      }
-    }
-  }
-  `;
-
-  const result = await request(graphqlAPI, query);
-
-  return result.postsConnection.edges;
-}
-export const getBigdataPosts = async () => {
-  const query = gql`
-  query MyQuery {
-    postsConnection(where: {catego:"big"}) {
-      edges {
-        cursor
-        node {
-          author {
-            bio
-            name
-            id
-            photo {
-              url
-            }
-          }
-          createdAt
-          
-          title
-          excerpt
-          featuredImage {
-            url
-          }
-          categories {
-            name
-            slug
-          }
-        }
-      }
-    }
-  }
-  `;
-
-  const result = await request(graphqlAPI, query);
-
-  return result.postsConnection.edges;
-}
