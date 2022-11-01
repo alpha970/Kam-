@@ -47,28 +47,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div>
-    <head>
-    <meta property="og:title" content="this is my title" key="ogtitle" />
-<meta property="og:description" content="a description" key="ogdesc" />
-<meta
-    property="og:image"
-    content="path/to/image"
-    key="ogimage"
-/>
-<meta
-    property="og:site_name"
-    content="name-of-your-site"
-    key="ogsitename"
-/>
-<meta
-    property="og:url"
-    content="https://kamweb.ga"
-    key="ogurl"
-/>
-<meta property="og:type" content="article" key="ogtype" />
-
-    </head>
+    
     <div
       style={{ backgroundColor: `${navBg}` }}
       className={
@@ -222,7 +201,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-    </div>
+    
   );
 };
 
