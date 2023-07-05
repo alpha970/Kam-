@@ -5,4 +5,4 @@
 
 
 
-To visit the webesite [KAM](https://kamweb.ga)
+To visit the webesite [KAM](https://kamweb.vercel.app)
